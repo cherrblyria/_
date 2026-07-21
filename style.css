@@ -9,9 +9,13 @@ body {
     Rubik,
     Noto Sans Thai Looped,
     sans-serif;
+  color: var(--ctp-mocha-text);
+  min-height: 100vh;
   background-image: url("bg.png");
   background-size: cover;
-  color: var(--ctp-mocha-text);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 #root {
   background-color: rgba(var(--ctp-mocha-base-rgb) / 0.9);
